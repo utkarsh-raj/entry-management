@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entry Management</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style type="text/css">
+            #footnote {
+                text-align: center;
+                margin-top: 10%;
+                margin-bottom: 3%;
+            }
+
+            body {
+                text-align: center ; 
+            }
+
+            h2 {
+                margin-top: 7%;
+            }
+
+            h4 {
+                margin-top: 8% ;  
+                margin-bottom: 5%;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+
+        <div class="container">
+
+            <h2>All right, you are good to go!</h2>
+            <h4>Feel free to explore and meet exciting people. The gathering is already intimated of your arrival. Don't keep everyone waiting!</h4>
+            <p>
+                Finish the session?
+                <br>
+                You will be sent a record of your visit to your registered contact details.
+                <br>
+                <% var urlString = "/leave_events/" + user_id + "/" + host_id; %>
+                <br>
+
+                <a href="<%= urlString %>" class="btn-lg btn btn-danger">Wrap up!</a>
+            </p>
+
+
+
+
+
+            <div class="container" id="areamain">
+                
+
+                    
+                    
+                </div>
+            
+        </div>
+
+        <div class="container" id="footnote">
+            <hr>
+            Made with Web Technologies and <i class="fas fa-heart"></i> by Utkarsh
+            <br>
+            Follow the code on <i class="fab fa-github"></i> <a href="http://www.github.com/utkarsh-raj">GitHub</a>
+        </div>
+
+
+    </body>
+</html>

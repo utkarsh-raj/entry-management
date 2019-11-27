@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entry Management</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style type="text/css">
+            #footnote {
+                text-align: center;
+                margin-top: 10%;
+                margin-bottom: 3%;
+            }
+
+            form {
+                margin-top: 5%;
+            }
+
+            .form-group {
+                margin:  3%;
+            }
+
+            .jumbotron {
+                padding-top: 20px;
+                padding-bottom:  20px ;
+            }
+        </style>
+    </head>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hello, Host!</h1>
+            <p>
+                Want a hassle-free and fine grained entry management?
+                <br>
+                You are just a form away!
+            </p>
+        </div>
+        <form action="/host_login" method="POST" class="form-horizontal">
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="col-sm-2 control-label">Contact</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address" class="col-sm-2 control-label">Address</label>
+                <div class="col-sm-10">
+                  <input type="textarea" rows="10" class="form-control" id="address" name="address" placeholder="Address" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-lg btn-success">Let's get going!</button>
+                </div>
+            </div>
+             
+        </form>
+    </div>
+    <body>
+        
+        
+
+        <div class="container" id="footnote">
+            <hr>
+            Made with Web Technologies and <i class="fas fa-heart"></i> by Utkarsh
+            <br>
+            Follow the code on <i class="fab fa-github"></i> <a href="http://www.github.com/utkarsh-raj">GitHub</a>
+        </div>
+
+
+    </body>
+</html>

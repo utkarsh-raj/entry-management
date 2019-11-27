@@ -1,0 +1,21 @@
+{
+  "name": "entry-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utkarsh Raj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-timeout": "^1.9.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "nodemailer": "^6.3.1",
+    "request": "^2.88.0",
+    "telesignsdk": "^2.2.1"
+  }
+}
